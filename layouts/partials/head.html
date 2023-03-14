@@ -29,6 +29,8 @@
 
     {{ if .Params.math }}{{ partial "katex.html" . }}{{ end }}
 
+    {{ partial "favicon.html" }}
+
     <link rel="canonical" href="{{ .Permalink }}" />
     <title>{{ .Title }}</title>
 </head>
